@@ -64,5 +64,75 @@ body.fotos #navegacao a#fotos
 	background: #de003e;
 	cursor: text;
 }
-/**/
+/*configuração do layout das colunas*/
+
+#conteudo{
+	margin-top:60px;
+}
+.caixa {
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);
+	margin: 10px 0;
+}
+.caixa h2{
+	font-size: 1.1em;
+	background: #294c71;
+	color: white;
+	padding: 0.3em;
+}
+
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+.caixa-conteudo{
+	padding: 15px;
+}
+.caixa-conteudo li a{
+	color: black;
+	line-height: 2.1em;
+	display: block;
+	text-decoration: none;
+	
+}
+.caixa-conteudo li a:hover{
+	color: red;
+}
+#tres-colunas #primario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+
+}
+#duas-colunas #primario{
+	width: 555px;
+	float: left;
+	margin: 0 0 20px 195px;
+	background: green;
+}
+#uma-colunas #primario{
+	width: 750px;
+	float: left;
+	margin: 0 0 20px 0 px;
+}
+
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
+/*Rodape*/
+#conteiner-rodape{
+	background: #294c71;
+	padding: 20px;
+}
+#rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+
 
