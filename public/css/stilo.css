@@ -88,21 +88,23 @@ body.fotos #navegacao a#fotos
 .caixa-conteudo{
 	padding: 15px;
 }
-.caixa-conteudo li a{
-	color: black;
+#lateral ul a{
+	color: #000;
+	font-size: 0.9em;
 	line-height: 2.1em;
 	display: block;
 	text-decoration: none;
 	
 }
-.caixa-conteudo li a:hover{
-	color: red;
+#lateral ul a:hover{
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	color: #a1a1a1;
+	padding-left: 20px;
 }
 #tres-colunas #primario{
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 195px;
-
 }
 #duas-colunas #primario{
 	width: 555px;
@@ -120,6 +122,31 @@ body.fotos #navegacao a#fotos
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 15px;
+}
+/*Formulário*/
+label {
+	display: block;
+	cursor: pointer;
+	
+}
+input {
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff; 
+	padding: 0.4em;
+}
+input.submit {
+	margin: 10px 0;
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+input.submit:hover{
+	color: #000;
+	background-color: #fff;
+	border: 2px solid #a1a1a1;
+	
 }
 
 /*Rodape*/
