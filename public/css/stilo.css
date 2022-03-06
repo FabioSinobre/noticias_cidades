@@ -110,7 +110,6 @@ body.fotos #navegacao a#fotos
 	width: 555px;
 	float: left;
 	margin: 0 0 20px 195px;
-	background: green;
 }
 #uma-colunas #primario{
 	width: 750px;
@@ -127,7 +126,7 @@ body.fotos #navegacao a#fotos
 label {
 	display: block;
 	cursor: pointer;
-	
+	margin: 8px 0;
 }
 input {
 	width: 125px;
@@ -147,6 +146,49 @@ input.submit:hover{
 	background-color: #fff;
 	border: 2px solid #a1a1a1;
 	
+}
+img {
+	border: 2px solid #dfdfdf;
+}
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+	background: #b10333;
+	color: #fff;
+	margin: 3px;	
+}
+.lista-noticias li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+.lista-noticias li a img{
+	float: left;
+	margin: 5px;	
+}
+.lista-noticias li a{
+	text-decoration: none;
+}
+.lista-noticias li a h3{
+	font-size: 0.8em;
+	padding: 2px;
+	color: #000;
+	background-color: #ccc;
+	margin: 22px 0;
+}
+.lista-noticias li a h3:hover{
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	color: #a1a1a1;
+	padding-left: 20px; 
+}
+.lista-noticias li a p{
+	font-size: 0.7em;
 }
 
 /*Rodape*/
